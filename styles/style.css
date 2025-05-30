@@ -3,6 +3,7 @@
 }
 
 .intro{
+    display: flex;
     background-image: url(../assets/Hero-bg.png) ;
     height: 652px;
 }
@@ -82,7 +83,7 @@
 }
 
 .now-tar {
-    margin: 80px;
+    margin: 50px;
 }
 
 .now-tar-des{
@@ -110,4 +111,82 @@
 }
 .js{
     background-color: yellow;
+}
+
+.nxt-tar{
+    border: 50px 0;
+    text-align: center;
+}
+
+.nxt-items{
+    margin: 50px;
+}
+
+.nxt-item {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    border: 2px solid blanchedalmond;
+    margin: 20px;
+    padding: 20px 30px ;
+    border-radius: 10px;
+}
+
+.nxt-item img {
+    margin-right: 30px;
+}
+
+.last{
+    margin: 70px;
+    border-radius: 10px;
+    background-image: url(../assets/handshake.jpg);
+    text-align: center;
+    padding: 50px;
+}
+
+.last h1{
+    color: azure;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.last p {
+    color: aliceblue;
+    padding: 0 200px;
+}
+
+.submits {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* .submits text-area{
+
+} */
+
+.submits input {
+    height: 25px;
+    width: 40%;
+    border-radius: 5px;
+    padding: 15px;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+
+ 
+.submits button {
+    padding: 25px;
+    width: 150px;
+     height: 60px;
+     border-radius: 5px;
+     font-size: 20px;
+         /* width: 24rem; w-48 (48 * 0.25rem = 12rem) */
+            background-color: #2563eb; /* bg-blue-600 */
+            color: #ffffff; /* text-white */
+            font-weight: 600; /* font-semibold */
+            display: flex; /* flex */
+            align-items: center; /* items-center */
+            justify-content: center; justify-center
 }
