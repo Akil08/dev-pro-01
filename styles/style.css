@@ -1,0 +1,113 @@
+*{
+    font-family: "Open Sans", sans-serif;
+}
+
+.intro{
+    background-image: url(../assets/Hero-bg.png) ;
+    height: 652px;
+}
+
+.intro-files{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 200px;
+    padding: 0 150px;
+    /* border: 5px solid red; */
+}
+
+.intro-h1{
+    font-weight: 800;
+    font-size: 45px;
+    font-family:  "Open Sans", sans-serif;
+    text-align: center;
+}
+
+.intro-para{
+    color: #0D1321;
+    font-size: 18px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.intro-btn{
+    background-color: black;
+    color: #FFFFFF ;
+    font-size: 20px;
+    padding: 10px 25px;
+    border-radius: 10px;
+}
+
+
+
+.learn{
+    margin: 100px 0; 
+    background-color: whitesmoke ;
+    padding: 50px 200px;
+}
+
+.learn-rea{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.learn-sec{
+    display: flex;
+    justify-content: space-between;
+    background-color:floralwhite ;
+    padding: 20px 40px 10px 40px ;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+
+.learn-img{
+    margin-left: 150px;
+}
+
+.learn-sec button{
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.insparation {
+    text-align: center;
+}
+
+.ytube{
+    margin-top: 50px;
+}
+
+.now-tar {
+    margin: 80px;
+}
+
+.now-tar-des{
+    text-align: center;
+    padding: 30px 150px 30px 150px ;
+}
+
+.now-tar-items{
+    display: flex;
+    justify-content: space-around;
+    gap: 15px;
+    /* padding: 10px; */
+}
+
+.tar-learn{
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.html{
+    background-color: red;
+}
+.css{
+    background-color: green;
+}
+.js{
+    background-color: yellow;
+}
